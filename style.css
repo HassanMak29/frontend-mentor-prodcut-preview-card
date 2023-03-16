@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
+
+:root {
+  --darkcyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+  --verydark: hsl(212, 21%, 14%);
+  --darkgrayish: hsla(228, 12%, 48%, 0.503);
+  --white: hsl(0, 0%, 100%);
+
+  --p-font-size: 1.4rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62%;
+}
+
+body {
+  height: 100vh;
+  color: var(--darkgrayish);
+  font-family: "Montserrat", sans-serif;
+  background-color: var(--cream);
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+button {
+  background-color: var(--darkcyan);
+  border: none;
+  color: var(--white);
+  padding: 1.5rem 4.5rem;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.1rem;
+  border-radius: 0.75rem;
+}
+
+button img {
+  width: 1.5rem;
+}
+
+.component {
+  width: 60rem;
+  display: flex;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.left {
+  width: 50%;
+}
+
+.left img {
+  width: 100%;
+}
+
+.mobile-image {
+  display: none;
+}
+
+.desktop-image {
+  display: block;
+}
+
+.right {
+  width: 50%;
+  background-color: var(--white);
+  padding: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.2rem;
+}
+
+.right h2 {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.5rem;
+}
+
+.right h1 {
+  font-family: "Fraunces", serif;
+  font-size: 3.3rem;
+  color: var(--verydark);
+  line-height: 3.5rem;
+}
+
+.right div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 87%;
+}
+
+.right p {
+  line-height: 2.2rem;
+  font-size: var(--p-font-size);
+}
+
+.price {
+  color: var(--darkcyan);
+  font-size: 3.5rem;
+  font-family: "Fraunces", serif;
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-size: var(--p-font-size);
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+  color: var(--verydark);
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding: 2rem;
+  }
+
+  .component {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .left {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+    gap: 1.3rem;
+    padding: 2.5rem 2.2rem;
+  }
+
+  .right div {
+    width: 75%;
+  }
+
+  .desktop-image {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+  }
+
+  .attribution {
+    display: none;
+  }
+}
