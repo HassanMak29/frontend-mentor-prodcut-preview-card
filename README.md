@@ -22,8 +22,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/HassanMak29/frontend-mentor-prodcut-preview-card)
+- Live Site URL: [Add live site URL here](https://frontend-mentor-productpreview-hassan.netlify.app/)
 
 ## My process
 
@@ -44,5 +44,5 @@ Do more of these projects until I feel comfortable enough with semantic HTML and
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [Abdelmounaim Hassan Makhloufi](https://portfolio-hassan.netlify.app/)
+- Frontend Mentor - [@HassanMak29](https://www.frontendmentor.io/profile/HassanMak29)
