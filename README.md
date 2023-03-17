@@ -22,8 +22,8 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/HassanMak29/frontend-mentor-prodcut-preview-card)
-- Live Site URL: [Add live site URL here](https://frontend-mentor-productpreview-hassan.netlify.app/)
+- Solution URL: [Solution URL](https://github.com/HassanMak29/frontend-mentor-prodcut-preview-card)
+- Live Site URL: [Live site URL](https://frontend-mentor-productpreview-hassan.netlify.app/)
 
 ## My process
 
