@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   color: var(--darkgrayish);
   font-family: "Montserrat", sans-serif;
   background-color: var(--cream);
